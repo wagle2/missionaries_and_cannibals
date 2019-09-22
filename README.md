@@ -20,6 +20,6 @@ action은 다음과 같은 list로 표현됩니다.
 
 본 문제에서 활용하는 search 알고리즘은 breadth first tree search와 depth first tree search입니다. (각각의 코드는 aima github에서 참조하였습니다.) 각 search 알고리즘을 사용하여 soulution과 path를 성공적으로 출력하는 것이 본 문제의 목표입니다.
 
-serach를 수행하기 위해선 missionaries_and_cannibals/state 의 State Class와 MissionariesAndCannibals Class를 완성하여야 합니다.
+serach를 수행하기 위해선 missionaries_and_cannibals 폴더의 State Class와 MissionariesAndCannibals Class를 완성하여야 합니다.
 
 완성된 코드는 메일로 제출 바랍니다.
