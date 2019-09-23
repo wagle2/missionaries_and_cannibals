@@ -22,4 +22,12 @@ action은 다음과 같은 list로 표현됩니다.
 
 serach를 수행하기 위해선 missionaries_and_cannibals 폴더의 State Class와 MissionariesAndCannibals Class를 완성하여야 합니다.
 
+MissionariesAndCannibals Class는 getValidAction(self, state, allActions) 함수를 작성하여야 합니다.
+getValidAction(self, state, allActions) 함수는 input 값으로 현재 state와 수행 가능한 액션의 list 혹은 set을 받아, output 값으로 현재 state에서 수행 가능한 action의 list 혹은 set을 가집니다.
+
+State Class는 move(self)와 isActionValid(self) 함수를 작성하여야 합니다.
+State Class는 인스턴스 생성 시, 현재 state와 수행할 action을 input 값으로 가지므로, 이 두 가지는 내부에 이미 존재한다고 가정합니다.
+move(self) 함수는 인스턴스 내부에 있는 state에 action을 적용한 결과 state를 return 하여야 합니다.
+isActionValid(self) 함수는 인스턴스 내부에 있는 state에 action을 적용한 결과 state가 올바른 state인지에 대한 여부를 boolean 값으로 return 하여야 합니다.
+
 완성된 코드는 메일로 제출 바랍니다.
